@@ -1,0 +1,87 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "session variable",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "TestIntent",
+          "samples": [
+            "Can you tell me my langauge."
+          ]
+        },
+        {
+          "name": "LanguageIntent",
+          "slots": [
+            {
+              "name": "lang",
+              "type": "language"
+            }
+          ],
+          "samples": [
+            "{lang}",
+            "I select {lang}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "japanese"
+              }
+            },
+            {
+              "name": {
+                "value": "chinese"
+              }
+            },
+            {
+              "name": {
+                "value": "german"
+              }
+            },
+            {
+              "name": {
+                "value": "dutch"
+              }
+            },
+            {
+              "name": {
+                "value": "spanish"
+              }
+            },
+            {
+              "name": {
+                "value": "french"
+              }
+            },
+            {
+              "name": {
+                "value": "english"
+              }
+            },
+            {
+              "name": {
+                "value": "hindi"
+              }
+            }
+          ],
+          "name": "language"
+        }
+      ]
+    }
+  }
+}
